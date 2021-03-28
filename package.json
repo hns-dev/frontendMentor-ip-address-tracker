@@ -1,0 +1,14 @@
+{
+  "name": "ip-address-tracker-master",
+  "version": "1.0.0",
+  "description": "My solution for frontendmentor IP Address Tracker challenge",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "H.N.S",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
