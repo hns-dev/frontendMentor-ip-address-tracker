@@ -35,22 +35,22 @@ input {
 }
 
 input::-webkit-input-placeholder {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   font-weight: 400;
 }
 
 input:-ms-input-placeholder {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   font-weight: 400;
 }
 
 input::-ms-input-placeholder {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   font-weight: 400;
 }
 
 input::placeholder {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   font-weight: 400;
 }
 
@@ -79,20 +79,8 @@ body {
   position: relative;
 }
 
-main {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
 #map {
-  -webkit-box-flex: 75vh;
-      -ms-flex: 75vh;
-          flex: 75vh;
+  height: 800px;
 }
 
 .marker {
@@ -103,10 +91,8 @@ main {
 }
 
 .top-part {
-  -webkit-box-flex: 25vh;
-      -ms-flex: 25vh;
-          flex: 25vh;
   background: url("../images/pattern-bg.png") no-repeat left top/cover;
+  padding-bottom: 6rem;
 }
 
 .top-part h1 {
@@ -194,6 +180,12 @@ main {
   .top-part .form-control {
     width: 50%;
     margin: 0 auto;
+  }
+}
+
+@media (min-width: 1020px) {
+  #map {
+    height: calc(100vh - 16rem);
   }
 }
 /*# sourceMappingURL=style.css.map */
